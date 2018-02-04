@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Tree-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="252" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="74" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="13" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="19.385" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.692" level="1" />
+<weighted_methods_per_class_unity value="24" level="0" />
+<weighted_methods_per_class_visibility value="24" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+<IF4 value="1" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="semant.h" line="33" />
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>DupControl(Tree *,Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="189" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FindUp(Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="49" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="92" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FindUp(Tree *,Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="47" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="62" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FindUpOneLevel(Tree *,Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="48" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="77" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>GetCur()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="52" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="120" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetLeft()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="61" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="227" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetRight()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="62" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="233" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Print()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="98" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SemInclude(Lexem,DATA_TYPE)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="54" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="164" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="11.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SemInclude(Lexem,DATA_TYPE,Lexem,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="55" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="138" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SemSetData(Tree *,Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="158" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SemSetType(Tree *,DATA_TYPE)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="56" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetCur(Tree *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="51" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="114" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetEmptyLeft()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="59" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="197" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetEmptyRight()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="60" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="212" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetLeft(Node *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="45" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="50" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SetRight(Node *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="46" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="56" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Tree()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="43" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="33" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Tree(Tree *,Tree *,Tree *,Node *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="42" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="21" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>checkTypeAssign(DATA_TYPE,DATA_TYPE)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="63" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="239" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>checkTypeExpr(DATA_TYPE,DATA_TYPE)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="64" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="252" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>checkVar(Tree *,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="65" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="267" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="17" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>findTypeName(Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="semant.h" line="53" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="semant.cpp" line="126" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>~Tree()</name>
+<extent>
+<description>definition</description>
+<source_reference file="semant.h" line="44" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Tree</name>
+<client_module>
+<name>Diagram</name>
+<visible>false</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="diagram.h" line="33" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Lexem</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="47" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="48" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="49" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="53" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="54" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="55" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="55" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="57" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.h" line="58" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="62" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="77" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="92" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="126" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="138" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="138" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="158" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="164" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="semant.cpp" line="189" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

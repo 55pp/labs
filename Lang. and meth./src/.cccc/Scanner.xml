@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Scanner-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="320" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="126" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="1" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="320.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="126.000" level="2" />
+<weighted_methods_per_class_unity value="13" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="9" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="1" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="scanner.h" line="8" />
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Scanner()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="11" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="3" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Scanner(string)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="12" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="7" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getData(string)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="18" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="223" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getIndexCurrentSym()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="24" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="303" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isBigLetter()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="21" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="258" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isDouble(Lexem,int &amp;)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="22" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="264" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>isNumber()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="19" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="246" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>isSmallLetter()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="20" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="252" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printError(string)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="17" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="216" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printError(string,string)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="16" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="203" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>scan(Lexem)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="15" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="18" />
+</extent>
+<lines_of_code value="183" level="2" />
+<McCabes_cyclomatic_complexity value="101" level="2" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="183.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="101.000" level="2" />
+</member_function>
+<member_function>
+<name>setIndexCurrentSym(int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="25" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="310" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~Scanner()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="scanner.h" line="13" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="scanner.cpp" line="13" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Scanner</name>
+<client_module>
+<name>Diagram</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="diagram.h" line="9" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="diagram.h" line="32" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="diagram.cpp" line="3" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Lexem</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="15" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="22" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="scanner.h" line="33" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="18" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="264" />
+</extent>
+<name>SrcTxt</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="scanner.h" line="28" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="12" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="16" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="16" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="17" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.h" line="18" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="7" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="203" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="203" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="216" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="scanner.cpp" line="223" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

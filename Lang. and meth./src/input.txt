@@ -1,0 +1,41 @@
+typedef bool MyInt[10];
+typedef MyInt YourInt[50];
+bool xxxxx;
+
+YourInt h, t, q = {};
+
+int main() {
+	MyInt[1][1] = false;
+	double k = 10, afafa, u, r, o ,qeq, ww;
+	bool flag = false;
+	MyInt b = {3, 10, 5, 4};
+	YourInt p = {1, 1, 1, {},1};
+	flag = true;
+	b[10] = true;
+	k = t[1][12] + 23;
+	double qp = 33.4E+15;
+	qp = 33324523.E4;
+	qp = .352E-15236;
+	t[1][1] = r * (4 | 4) - 9 ^ 3 / 4 & 1 << 4 >> 10;
+	switch(k){}
+		case 5:{}
+			switch(k){
+				case 5:
+					{bool a,b,c;}
+					xxxxx=xxxxx;
+					break;
+				case 10:
+					bool r = false;
+					{bool a,b,c;}
+					break;
+				default:
+					// double r = 0;
+					break;
+			}
+			break;
+		case 10:
+			{double a = 1 * 2 * 3 * 4 - 5 * 9;}
+			bool r = false;
+			break;
+	}
+}
