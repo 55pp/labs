@@ -21,11 +21,33 @@ enum DATA_TYPE
   TYPE_TYPEDEF
 };
 
+enum TDataType
+{
+  DataInt,
+  DataDouble,
+  DataBool
+};
+
+union TDataValue
+{
+  int dataAsInt;
+  int* arrayDataAsInt;
+  double dataAsDouble;
+  double* arrayDataAsDouble;
+};
+
+struct TData
+{
+  TDataValue dataValue;
+  TDataType dataType;
+};
+
 struct Node
 {
   Lexem id;
   DATA_TYPE dataType;
   char* data;
+  TData value;
   int size;
   Lexem type_name;
 };

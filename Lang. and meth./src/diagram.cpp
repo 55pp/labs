@@ -482,9 +482,12 @@ Diagram::sswitch()
     if (t != LDoublePoint)
       sc->printError("Ожидался символ :", l);
     operators();
+    t = sc->scan(l);
+    if (t != LCloseBraket)
+      sc->printError("Ожидался символ }", l);
   }
-  t = sc->scan(l);
-  if (t != LCloseBraket)
+  //  t = sc->scan(l);
+  else if (t != LCloseBraket)
     sc->printError("Ожидался символ }", l);
 }
 

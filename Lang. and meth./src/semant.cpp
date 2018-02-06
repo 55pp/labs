@@ -141,7 +141,7 @@ Tree::SemInclude(Lexem a, DATA_TYPE t, Lexem tn, int s)
     std::cerr << "Тип не может быть идентификатором: " << a << std::endl;
     exit(0);
   }
-  Tree* v;
+  //  Tree* v;
   Node b;
   memcpy(b.id, a, strlen(a) + 1);
   b.dataType = t;
@@ -167,7 +167,7 @@ Tree::SemInclude(Lexem a, DATA_TYPE t)
     std::cerr << "Повторное описание идентификатора: " << a << std::endl;
     exit(0);
   }
-  Tree* v;
+  //  Tree* v;
   Node b;
   memcpy(b.id, a, strlen(a) + 1);
   b.dataType = t;

@@ -5,7 +5,7 @@ bool xxxxx;
 YourInt h, t, q = {};
 
 int main() {
-	MyInt[1][1] = false;
+	// MyInt[1][1] = false;
 	double k = 10, afafa, u, r, o ,qeq, ww;
 	bool flag = false;
 	MyInt b = {3, 10, 5, 4};
@@ -17,7 +17,7 @@ int main() {
 	qp = 33324523.E4;
 	qp = .352E-15236;
 	t[1][1] = r * (4 | 4) - 9 ^ 3 / 4 & 1 << 4 >> 10;
-	switch(k){}
+	switch(k){
 		case 5:{}
 			switch(k){
 				case 5:
