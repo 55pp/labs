@@ -1,0 +1,21 @@
+-module(plib).
+
+-export(next/1, damage/1, level_done/1, level_fail/0).
+
+-define(Damage, 10).
+
+next({Health, Key}) ->
+    gen_event:notify(event_logger, {msg, "player: next~"}),
+    gen_server:call(r_server, {next, Health, Key}).
+
+damage({PHealth, PKey, EHealth}) ->
+    gen_event:notify(event_logger, {msg, "player: damage ~n"}),
+    gen_server:call(e_server, {damage, PHealth, PKey, EHealth - 10}).
+
+level_done({Health}) ->
+    gen_event:notify(event_logger, {msg, "player: done~n"}),
+    gen_server:call(gm_server, {gm_done, Health}).
+
+level_fail() ->
+    gen_event:notify(event_logger, {msg, "player: dead~n"}),
+    gen_server:call(gm_server, {gm_fail}).

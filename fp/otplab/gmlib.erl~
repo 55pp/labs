@@ -1,0 +1,15 @@
+-module(gmlib).
+
+-export([start/0]).
+
+start() ->
+    gen_event:notify(event_logger, {msg, "gm: start~n"}),
+    gen_server:call(p_server, {gm_start}),
+    ok.
+
+end_level({done, Score}) ->
+    gen_event:notify(event_logger, {msg, "gm: level done~n"}),
+    gen_server:call(i_server, {gm_done, Score};
+end_level({dead}) ->
+    gen_event:notify(event_logger, {msg, "gm: player dead~n"}),
+    gen_server:call(i_server, {gm_fail}).

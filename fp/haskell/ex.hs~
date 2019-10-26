@@ -1,0 +1,10 @@
+expr :: [String] -> Int
+expr [] = 0
+expr (head: []) = digitToInt(head)
+expr ("+": h1: h2) = expr(h1) + expr(h2)
+expr ("-": h1: h2) = expr(h1) - expr(h2)
+expr ("*": h1: h2) = expr(h1) * expr(h2)
+expr ("/": h1: h2) = expr(h1) / expr(h2)
+expr num = num
+main :: IO ()
+main = putStsLn(show(expr(["+", "1", "2"])))

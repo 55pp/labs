@@ -1,0 +1,16 @@
+-module(rlib).
+
+-export([]).
+
+roll() ->
+    roll(rand:uniform(3)).
+
+roll(1) ->
+    gen_event:notify(event_logger, {msg, "roll: key~n"}),
+    gen_server:call(p_server, {key});
+roll(2) ->
+    gen_event:notify(event_logger, {msg, "roll: health~n"}),
+    gen_server:call(p_server, {health});
+roll(3) ->
+    gen_event:notify(event_logger, {msg, "roll: enemy~n"}),
+    gen_server:call(e_server, {attack});

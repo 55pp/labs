@@ -1,0 +1,147 @@
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+init: start
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+gm: start
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+player: done
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+gm: level done
+
+=INFO REPORT==== 25-Oct-2019::14:53:45 ===
+init: level complited - 100
+
+=INFO REPORT==== 25-Oct-2019::14:56:57 ===
+Code was changed. Old version: rlib. New version rlib2
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+init: start
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+gm: start
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: enemy
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemy: start attack
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: enemy
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemy: start attack
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: damage 
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+enemt: damage
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: health
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: key lost
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: health
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: next
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+roll: key
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+player: done
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+gm: level done
+
+=INFO REPORT==== 25-Oct-2019::14:57:48 ===
+init: level complited - 120

@@ -1,0 +1,47 @@
+import Control.Concurrent
+import Control.Monad (forever)
+import Control.Concurrent.Chan
+import System.Random
+
+initProc init_gm_ch gm_init_ch = do
+  putStrLn "init: send start"
+  writeChan init_gm_ch "i_start"
+  putStrLn "init: wait answer"
+  msg <- readChan gm_init_ch
+  let modif = show(((read msg::Int) + 10))
+  putStrLn $ "Score: " ++ modif
+
+gmProc init_gm_ch gm_init_ch = do
+  putStrLn "gm: wait message"
+  msg <- readChan init_gm_ch
+  putStrLn $  "gm: receive " ++ msg
+  putStrLn "gm: send result"
+  writeChan gm_init_ch "40"
+  putStrLn "gm: <<<<DONE>>>>"
+
+
+rollOrEnd "next" player_roll_ch player_event_ch = do
+  gen <- getStdGen
+  let num = randomRs((1, 3) gen)
+  startRoll(num, player_roll_ch player_event_ch)
+
+rollOrEnd "stop" player_roll_ch player_event_ch = do
+  putStrLn "roll: stop"
+
+rollProc player_roll_ch player_event_ch = do
+  msg <- readChan player_roll
+  rollOrEnd(msg player_roll_ch player_event_ch)
+
+forkCreator action = do
+  forkIO $ forever action
+
+main :: IO ()
+main = do
+  init_gm_ch <- newChan
+  gm_init_ch <- newChan
+
+  forkCreator(gmProc init_gm_ch gm_init_ch)
+  forkCreator(initProc init_gm_ch gm_init_ch)
+
+  getLine
+  return ()
