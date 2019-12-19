@@ -1,0 +1,11 @@
+never check_me {    /* !([] ((! (start_game)) || (<> (end_game)))) */
+T0_init:
+	do
+	:: (! ((! (start_game))) && ! ((end_game))) -> goto accept_S4
+	:: (1) -> goto T0_init
+	od;
+accept_S4:
+	do
+	:: (! ((end_game))) -> goto accept_S4
+	od;
+}
